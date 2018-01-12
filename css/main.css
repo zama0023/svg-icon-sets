@@ -1,0 +1,40 @@
+html {
+  font-family: Overpass, sans-serif;
+  color: #fff;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  background-repeat: no-repeat;
+}
+
+.btn {
+  border-color: rgba(255, 255, 255, .6);
+  color: #fff;
+}
+
+.btn:hover {
+  border-color: #fff;
+  background-color: #fff;
+  color: #ff5e3a;
+}
+
+.unit:nth-child(2),
+.unit:nth-child(3),
+.unit:last-child {
+  border-bottom: 1px white solid;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .unit:nth-child(2),
+  .unit:nth-child(3) {
+    border-right: 1px white solid;
+    border-bottom: none;
+  }
+
+  .unit:last-child {
+    border-bottom: none;
+  }
+
+}
